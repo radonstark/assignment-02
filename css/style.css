@@ -7,17 +7,14 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
-body {
-  margin-top: 40px;
-}
+/* common styles */
 
 a {
   text-decoration: none;
 }
 
-/* common styles */
 body {
+  margin-top: 40px;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
 }
@@ -60,16 +57,19 @@ nav {
 .banner-title {
   margin-top: 100px;
 }
+
 .title {
   color: #3a3a3a;
   /* width: 580px; */
   font-size: 52px;
 }
+
 .banner-text {
   color: #3a3a3a;
   width: 480px;
   margin-bottom: 40px;
 }
+
 .banner-title a {
   color: #ffff;
   text-decoration: none;
@@ -78,9 +78,11 @@ nav {
   background-color: #e02c6d;
   align-items: center;
 }
+
 header > .full-banner:hover > .banner-img {
   transform: scale(1.2);
 }
+
 .banner-title a:hover {
   opacity: 0.9;
 }
@@ -90,6 +92,7 @@ header > .full-banner:hover > .banner-img {
   font-weight: 500;
   line-height: 24px;
 }
+
 .banner-img:hover {
   opacity: 0.9;
 }
@@ -162,12 +165,6 @@ main {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.05), 0 0 40px rgba(0, 0, 0, 0.05);
 }
 
-/* .product .product-banner img {
-  width: 1fr;
-  height: 1fr;
-  margin: 2px;
-} */
-
 .product-name {
   font-size: 28px;
   font-weight: 500;
@@ -234,26 +231,32 @@ main {
   column-gap: 40px;
   margin-bottom: 30px;
 }
+
 .blog {
   display: flex;
 }
+
 .blog-img img {
   width: 320px;
   height: 200px;
   border-radius: 6px;
   box-shadow: 1px 2px 18px grey;
 }
+
 .blog-info {
   padding: 10px 0 0 20px;
 }
+
 .blog-info h4 {
   font-size: 24px;
   color: #0a0826;
   padding-bottom: 10px;
 }
+
 .blog-info p {
   color: rgb(114, 114, 114);
 }
+
 .blog-info a {
   text-decoration: none;
   color: #e02c6d;
@@ -265,15 +268,18 @@ main {
   background-color: #0a0826;
   padding: 50px 0;
 }
+
 .footer-content {
   color: white;
   text-align: center;
 }
+
 .footer-content p {
   font-size: 12px;
   line-height: 24px;
   margin-bottom: 10px;
 }
+
 .footer-content i {
   font-size: 18px;
   color: white;
@@ -343,6 +349,7 @@ main {
   .products {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .blogs,
   .full-banner {
     grid-template-columns: repeat(1, 1fr);
