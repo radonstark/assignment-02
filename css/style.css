@@ -8,6 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* header css */
 header {
   width: 100%;
